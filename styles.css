@@ -105,14 +105,26 @@ footer {
 }
 
 .status.done {
-    background-color: #66bb6a; /* Green for done */
+    background-color: #66bb6a; 
 }
 
 .status.ongoing {
-    background-color: #ffa726; /* Orange for ongoing */
+    background-color: #1dc3ec; 
 }
 
 .project-title {
     font-size: 1.5em; /* Increase the font size of the title */
     margin-top: 25px; /* Add margin to separate from the status label */
+    padding-top:    0px;
+}
+
+.grid-heading{
+    margin-left: 70px;
+}
+
+.date{
+    color: grey;
+    font-size: 12px;
+    /* font-style: italic; */
+    font-weight: 600;
 }
