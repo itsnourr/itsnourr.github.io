@@ -1,0 +1,44 @@
+/* Style for the navigation bar */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 1rem 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+
+nav ul li a:hover {
+    color: #f4f4f4;
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Ensure that content doesn't go under the fixed navbar */
+body {
+    padding-top: 70px; /* Adjust this if your navbar height changes */
+}
+
+/* Optional: Style other sections */
+header {
+    padding-top: 3rem; /* Extra padding for space below the navbar */
+}
