@@ -130,10 +130,13 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .grid-heading{
+        font-size: 1.5em;
+    }
     .card-grid {
         grid-template-columns: 1fr; /* 1 column */
     }
-    .grid-heading{
-        font-size: 1.5em;
+    .card:hover{
+        transform: none;
     }
 }
