@@ -130,7 +130,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .project-grid {
+    .card-grid {
         grid-template-columns: 1fr; /* 1 column */
     }
 }
