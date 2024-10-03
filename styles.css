@@ -128,3 +128,9 @@ footer {
     /* font-style: italic; */
     font-weight: 600;
 }
+
+@media (max-width: 768px) {
+    .project-grid {
+        grid-template-columns: 1fr; /* 1 column */
+    }
+}
