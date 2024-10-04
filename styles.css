@@ -3,8 +3,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom right, #81d4fa, #38b6ff); /* Blue gradient background */
-    color: #1a237e; /* Dark blue text color e0f7fa*/
+    background: linear-gradient(to bottom right, #e0f7fa, #81d4fa); /* Blue gradient background */
+    color: #1a237e; /* Dark blue text color 38b6ff*/
 }
 
 nav {
