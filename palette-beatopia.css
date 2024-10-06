@@ -1,0 +1,43 @@
+body {
+
+    color: #5320b8; /* was 1a7d38 was 1a237e was 38b6ff*/
+}
+
+nav {
+    background-color: #6e2af5; /* was 0da139 */
+}
+
+#toc {
+    border-left: 4px solid #6e2af5;
+}
+
+#toc a:hover{
+border-bottom: 2px solid #6e2af5;
+}
+
+#toc a {
+color: #5320b8;
+}
+
+.desc-box{
+    border-left: 4px solid #5320b8;
+}
+
+.sneak-desc{
+    border-left: 4px solid #5320b8;
+}
+
+.bookmark {
+    background-color: #edbfff31;
+    border-left: 5px solid #6e2af5; /* Green colored left border */
+    color: #5320b8;
+}
+
+.bookmark:hover {
+    background-color: #bfbfff31;
+}
+
+
+footer {
+    background-color: #6e2af5; 
+}
