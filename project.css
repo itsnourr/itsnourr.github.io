@@ -3,12 +3,12 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom right, #e0f7fa, #81d4fa); /* Blue gradient background */
-    color: #1a237e; /* Dark blue text color 38b6ff*/
+    background: white;
+    color: #279f69; /* was 1a7d38 was 1a237e was 38b6ff*/
 }
 
 nav {
-    background-color: #0d47a1; /* Dark blue navigation bar */
+    background-color: #41c47d; /* was 0da139 */
     color: white;
     padding: 15px;
     text-align: center;
@@ -34,12 +34,14 @@ nav a {
 }
 
 header {
-    text-align: center;
-    margin: 30px 0;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 60px;
 }
 
 h2 {
     font-size: 2.5em;
+    margin: 0;
 }
 
 .project-center-title{
@@ -48,16 +50,163 @@ h2 {
 
 main {
     padding: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.snapshot{
+    max-width: 90%;
+    border: 3px solid rgb(167, 166, 166);
+    margin-bottom: 20px;
+}
+
+.caption{
+    font-style: italic;
+    color: black;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+ /* ///////////////////////////////////////////// */
+
+#toc {
+    position: fixed;
+    top: 20px;
+    right: -250px; 
+    width: 120px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #41c47d;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    transition: right 0.3s ease;
+  }
+  
+  #toc.open {
+    right: 10px; 
+  }
+  
+  #toc ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #toc li {
+    margin-bottom: 10px;
+  }
+
+  #toc a:hover{
+    border-bottom: 2px solid #41c47d;
+  }
+  
+  #toc a {
+    text-decoration: none;
+    color: #279f69;
+  }
+  
+  #toc-button {
+    font-size: 18px;
+    font-weight: 700;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+
+ /* ///////////////////////////////////////////// */
+
+.desc-box{
+    border-left: 4px solid #279f69;
+    padding-left: 10px;
+    font-style: italic;
+    font-size: 17px;
+}
+
+h3 {
+    font-size: 28px;
+    margin-bottom: 0px;
+    scroll-margin-top: 28px;
+}
+
+ul{
+    margin-top: 10px;
+    margin-left: 0px;
+    padding-left: 20px;
+    line-height: 30px;
+}
+
+.sneak-desc{
+    max-width: 90%;
+    border-left: 4px solid #279f69;
+    padding-left: 10px;
+}
+
+.bookmark {
+    margin-top: 12px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #bfffdc31;
+    border-left: 5px solid #41c47d; /* Green colored left border */
+    padding: 10px;
+    font-size: 24px;
+    color: #279f69;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.bookmark:hover {
+    background-color: #bfffdcb9;
+}
+
+.bookmark-container {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.bookmark img {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
 }
 
 
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #0d47a1; /* Same dark blue for footer */
+    background-color: #41c47d; /* was 0da139 was 0d47a1*/
     color: white;
 }
 
 @media (max-width: 768px) {
-    
+    header{
+        padding-left: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: left;
+    }
+
+    main{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #toc-button{
+        top: 16px;
+        right: 16px;
+    }
+    .bookmark{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .bookmark img{
+        width: 60px;
+        height: 60px;
+    }
 }
