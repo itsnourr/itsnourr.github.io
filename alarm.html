@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="palette-alarm.css">
+    <link rel="icon" href="logo.png" type="image/png">
+    <title>Portfolio - Nour Rajeh</title>
+</head>
+<body>
+    <nav>
+        <p> Viewing on your phone? Try rotating for a better view</p>
+    </nav>
+
+    <header>
+        <h2 class="project-center-title">Electronic Dual Sensor Alarm for Motion and Fire</h2>
+    </header>
+
+    <main>
+        <div class="desc-box">
+            Two sensors inputted to an OR gate made out of MOSFET transistors using HEF4007 IC chip. The first one is for heat, done using a thermistor and a comparator configuration using UA741 OpAmp; the other one is similar but for motion with an LDR instead. Once either sensor is triggered, the gate output voltage would turn on a buzzer, and its amplified current turns on a DC motor whose speed is tuned by a potentiometer.
+        </div>
+
+        <button id="toc-button">&#9776;</button>
+
+        <div id="toc" class="toc">
+        <ul>
+            <li><a href="#">Back to Top</a></li>
+            <li><a href="#skills">Earned Skills</a></li>
+            <li><a href="#sneak">Sneak Peak</a></li>
+            <li><a href="#canva">Presentation</a></li>
+            <li><a href="#report">Report PDF</a></li>
+        </ul>
+        </div>
+
+        <p> <b>Other Contributors</b>: <i>Hussam Kobeissi</i>, <i>Farah Abu Khachfe</i> </p>
+
+        <h3 id="skills"> Skills Acquired </h3>
+        <ul>
+            <li> <b>Sensors tuning</b> and <b>logical implementation</b> for monitoring mechanisms</li>
+            <li> <b>Logic gate implementation</b> from scratch using discrete or IC <b>transistors</b></li>
+            <li> <b>Voltage</b> / <b>current amplifier</b> and <b>comparator</b> design for outputs and sensors</li>
+            <li> <b>Product survey </b> for electronic devices suitable in terms of functionality and cost</li>
+            <li> <b>Datasheet analysis</b> with full inspection of <b>features</b> & <b>internal strcuture</b> of electronic products</li>
+        </ul>
+        
+        <h3 id="sneak"> Peak at the Project </h3>
+        <!-- <p class="sneak-desc"> Leafcards welcomes the user with a landing page that provides themed illustrations with eye-catching titles that fully desrcibes the website's features and aims. Upon authentication, users have access to all the Leafsets they created in the <b>My Leafsets</b> page. There they would find a button to create a new leafset and be able to also edit existing ones in a lab-like view. They could also potentially find interesting leafsets created by other users and made public on the <b>Discover Page</b> that includes a search bar to search by label, user or name, a grid of trending leafsets and another of similar ones to the user's. Finally, a <b>Settings</b> dashboard is accessible from the navbar where basic actions where implemented such as password and email change as well as logging out.</p> -->
+        
+        <!-- <figure>
+            <figcaption class="caption"> Initial Flowchart of the Project : </figcaption>
+            <img src="alarm-flowchart.png" alt="alarm flowchart" class="snapshot">
+        </figure> -->
+
+        <figure>
+            <figcaption class="caption"> Final Schematic of the Alarm : </figcaption>
+            <img src="alarm-final-schematic.png" alt="alarm schematic" class="snapshot">
+        </figure>
+        
+        <h3 id="canva"> Canva Presentation </h3>
+        <div class="canva">
+            <iframe loading="lazy" class="canva-iframe"
+                src="https://www.canva.com/design/DAGDU1S66Zs/uwxOU26TPezi6CKBk4YMLg/view?embed" 
+                allowfullscreen="allowfullscreen" allow="fullscreen">
+            </iframe>
+        </div>        
+
+        <h3 id="report"> Report PDF </h3>
+        <a href="Dual Sensor Alarm - Full Report.pdf" class="bookmark" target="_blank">
+            <div class="bookmark-container">
+                <img src="pdf-logo.png" alt="Bookmark Icon">
+                <span>Check out the tehnical report for this project <b>here</b></span>
+            </div>
+        </a>
+
+
+    </main>
+
+    <footer id="contact">
+        <p>Contact me at: nour.rajeh@outlook.com</p>
+    </footer>
+
+    <script src="slider-script.js"></script>
+</body>
+</html>
