@@ -67,6 +67,8 @@ main {
 
  /* ///////////////////////////////////////////// */
 
+ 
+
 #toc {
     position: fixed;
     top: 20px;
@@ -189,6 +191,13 @@ iframe {
     border: none;
     padding: 0;
     margin: 0;
+}
+
+.prototype {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 800px;
+    height: 450px;
+    margin-top: 10px;
 }
 
 
