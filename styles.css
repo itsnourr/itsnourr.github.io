@@ -115,4 +115,16 @@ footer {
 .project-title {
     font-size: 1.5em; /* Increase the font size of the title */
     margin-top: 25px; /* Add margin to separate from the status label */
+    padding-top:    0px;
+}
+
+.grid-heading{
+    margin-left: 70px;
+}
+
+.date{
+    color: grey;
+    font-size: 12px;
+    /* font-style: italic; */
+    font-weight: 600;
 }
